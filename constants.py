@@ -1,7 +1,7 @@
-Width, Height = 1000, 1000
+Width, Height = 1920, 1080
 size = (Width, Height)
 
-speed = 0.3
+speed = 0.2
 
 #rgb colors
 backgroundColor = (0, 0, 0)
@@ -23,3 +23,4 @@ SecColor = (0, 255, 255)
 #circle
 radius = 300
 circleStroke = 2
+angleArc = 100
