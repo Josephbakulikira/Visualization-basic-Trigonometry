@@ -1,3 +1,6 @@
+# Subscribe to my youtube
+# Youtube Channel: http://www.youtube.com/channel/UCjPk9YDheKst1FlAf_KSpyA?sub_confirmation=1
+
 import sys
 import pygame
 from math import cos, sin, tan, pi
