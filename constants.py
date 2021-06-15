@@ -1,26 +1,33 @@
 Width, Height = 1920, 1080
 size = (Width, Height)
 
-speed = 0.2
+speed = 0.8
 
 #rgb colors
-backgroundColor = (0, 0, 0)
-circleColor = (255, 255, 255)
-PointColor = (255, 255, 255)
-lineColor = (255, 255, 255)
-YaxisColor = (60, 0, 0)
-XaxisColor = (0, 0, 60)
-OriginColor = (255, 255, 255)
+backgroundColor = (255, 255, 255)
+circleColor = (0, 0, 0)
+PointColor = (0, 0, 0)
+lineColor = (0, 0, 0)
+YaxisColor = (172,221,222)
+XaxisColor = (247,216,186)
+OriginColor = (50, 50, 50)
 
-SinColor = (255, 0, 0)
-CosColor = (0, 0, 255)
-TanColor = (0, 255, 0)
-CtanColor = (255, 140, 0)
-SecColor = (255,20,147)
-CscColor = (128,0,128)
-SecColor = (0, 255, 255)
+SinColor = (214,45,32)
+CosColor = (0,87,231)
+TanColor = (0,135,68)
+CtanColor = (255,167,0)
+SecColor = (61,30,109)
+CscColor = (255,85,136)
 
 #circle
-radius = 300
-circleStroke = 2
+radius = 200
+circleStroke = 3
 angleArc = 100
+
+XwaveOffset = radius
+YwaveOffset = radius
+
+XwaveColor = (247,190,170)
+YwaveColor = (172,221,222)
+
+limit = 1000

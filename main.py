@@ -10,13 +10,16 @@ screen = pygame.display.set_mode(size)
 clock = pygame.time.Clock()
 fps = 60
 
-position = (Width//2, Height//2)
+position = (600, Height//2)
 yAxis = Line( [position[0], 0], [position[0], Height], YaxisColor, 1)
 xAxis = Line( [0, position[1]], [Width, position[1]], XaxisColor, 1)
 
+Xwave = []
+Ywave = []
+
 # theta in degrees
 angle = 0.0001
-
+time = 0
 
 def toRadian(degree):
     return degree * pi / 180
@@ -57,6 +60,21 @@ while run:
     SecLine  = Line( position, [position[0] + secante , position[1]], SecColor, 3, "sec", "Bottom")
     CscLine  = Line( position, [position[0]  , position[1] - cosecante], CscColor, 3, "cos", "Left")
 
+    Xwave.insert(0, pointPos[1])
+    Ywave.insert(0, pointPos[0])
+    if len(Xwave) > limit:
+        Xwave.pop()
+        Ywave.pop()
+
+    #draw waves
+    if showXwave:
+        for i in range(len(Xwave)):
+            pygame.draw.circle(screen, XwaveColor, (i+ position[0]+XwaveOffset, Xwave[i]), 2)
+    if showYwave:
+        for i in range(len(Ywave)):
+            pygame.draw.circle(screen, YwaveColor, (Ywave[i], position[1] + YwaveOffset + i), 2)
+            pygame.draw.circle(screen, YwaveColor, (Ywave[i], position[1] - YwaveOffset - i), 2)
+
 
     #--lines---
     if showCos:
@@ -71,11 +89,10 @@ while run:
         SecLine.Show(screen)
     if showCsc:
         CscLine.Show(screen)
-
     if showTheta:
         offset = angleArc//2
 
-        font = pygame.font.Font('freesansbold.ttf', 12)
+        font = pygame.font.Font('freesansbold.ttf', 16)
         text = font.render(str(round(angle, 2)) + " °", True, OriginColor)
         textRect = text.get_rect()
         p = (position[0]-offset, position[1]-offset)

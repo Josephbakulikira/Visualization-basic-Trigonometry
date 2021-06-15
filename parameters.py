@@ -10,3 +10,5 @@ showCtan = True
 showSec = True
 showCsc = True
 showTheta = True
+showXwave = True
+showYwave = True
