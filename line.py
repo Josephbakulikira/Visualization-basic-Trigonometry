@@ -11,19 +11,20 @@ class Line:
         self.font = 'freesansbold.ttf'
         self.fontSize = 18
         self.textColor = color
+        
     def Show(self, screen):
         #get mid point of a segment
         x = (self.pointA[0] + self.pointB[0])//2
         y = (self.pointA[1] + self.pointB[1])//2
 
         if self.textPosition == "Top":
-            y -= self.stroke * 5
+            y -= self.stroke * 6
         elif self.textPosition == "Bottom":
-            y += self.stroke * 5
+            y += self.stroke * 6
         elif self.textPosition == "Right":
-            x += self.stroke * 5
+            x += self.stroke * 6
         else:
-            x -= self.stroke * 5
+            x -= self.stroke * 6
         font = pygame.font.Font(self.font, self.fontSize)
         text = font.render(self.text, True, self.textColor)
         textRect = text.get_rect()
