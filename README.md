@@ -6,7 +6,7 @@
             "P" to pause the program
             "ESC" to close the program
 ---
-![Screenshot (118)](https://user-images.githubusercontent.com/48150537/122188097-422f6b00-cead-11eb-9073-394f48e630e8.png=300x200) 
+![Screenshot (118)](https://user-images.githubusercontent.com/48150537/122188097-422f6b00-cead-11eb-9073-394f48e630e8.png=200x200) 
 ![Screenshot (124)](https://user-images.githubusercontent.com/48150537/122188049-38a60300-cead-11eb-88a7-37c4a263cd14.png)
 ![Screenshot (123)](https://user-images.githubusercontent.com/48150537/122188126-48254c00-cead-11eb-96cd-c0425507f307.png)
 
