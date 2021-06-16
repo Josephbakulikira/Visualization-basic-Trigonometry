@@ -1,11 +1,8 @@
 Width, Height = 1920, 1080
 size = (Width, Height)
-
 speed = 0.8
 
 #rgb colors
-
-
 YaxisColor = (172,231,252)
 XaxisColor = (247,206,176)
 OriginColor = (50, 50, 50)

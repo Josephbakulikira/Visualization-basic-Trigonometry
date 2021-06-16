@@ -1,6 +1,5 @@
 # Subscribe to my youtube
 # Youtube Channel: http://www.youtube.com/channel/UCjPk9YDheKst1FlAf_KSpyA?sub_confirmation=1
-
 import sys
 import pygame
 from math import cos, sin, tan, pi
@@ -26,7 +25,6 @@ previousRadius = radius
 previousSpeed = radius
 # theta in degrees
 angle = 0.0001
-time = 0
 
 def toRadian(degree):
     return degree * pi / 180
@@ -35,7 +33,6 @@ def hsv_to_rgb(h, s, v):
     return tuple(round(i * 255) for i in colorsys.hsv_to_rgb(h, s, v))
 
 clicked = False
-
 run = True
 while run:
     clock.tick(fps)
@@ -102,9 +99,7 @@ while run:
     if showYwave:
         for i in range(len(Ywave)):
             pygame.draw.circle(screen, YwaveColor, (Ywave[i], position[1] + waveOffset + i), 2)
-            pygame.draw.circle(screen, YwaveColor, (Ywave[i], position[1] - waveOffset - i), 2)
-
-
+            pygame.draw.circle(screen, YwaveColor, (Ywave[i], position[1] - waveOffset - i), 2)=
     #--lines---
     if showCos:
         cosLine.Show(screen)

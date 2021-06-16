@@ -1,4 +1,5 @@
 import pygame
+
 def HandleEvent(clicked, pause, showUI):
     running = True
     for event in pygame.event.get():
