@@ -1,5 +1,5 @@
 # Visualization-basic-Trigonometry
-## Youtube Channel: http://www.youtube.com/channel/UCjPk9YDheKst1FlAf_KSpyA?sub_confirmation=1
+####  Youtube Channel: http://www.youtube.com/channel/UCjPk9YDheKst1FlAf_KSpyA?sub_confirmation=1
 ---
 ### commands
             "Space" to toggle the parameter panel
