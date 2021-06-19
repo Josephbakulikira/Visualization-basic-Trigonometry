@@ -13,8 +13,13 @@ TanColor = (0,135,68)
 CtanColor = (255,167,0)
 SecColor = (61,30,109)
 CscColor = (255,85,136)
+valueColor = (255, 255, 255)
+strokeGraph = 2
 
 XwaveColor = (251,54,64)
 YwaveColor = (0,90,141)
+TanGraphColor = (200,117,0)
+SecFunctionColor = (31,0,89)
+CscFunctionColor = (225,55,106)
 
 limit = 1000
