@@ -2,6 +2,7 @@
 # Visualization-basic-Trigonometry
 ####  Youtube Channel: http://www.youtube.com/channel/UCjPk9YDheKst1FlAf_KSpyA?sub_confirmation=1
 ---
+
 ### commands
             "Space" to toggle the parameter panel
             "P" to pause the program
@@ -19,4 +20,6 @@
 ![Screenshot (130)](https://user-images.githubusercontent.com/48150537/122634767-e576bf00-d0fd-11eb-9f67-c0e12b76da5e.png)
 ![ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/48150537/121996722-c1963f00-cdc6-11eb-9e46-3cb11e52f6ed.gif)
 
+---
+the code is a mess
 #### enjoy the spaghetti code 🍝
