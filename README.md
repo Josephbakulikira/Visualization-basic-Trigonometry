@@ -21,5 +21,5 @@
 ![ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/48150537/121996722-c1963f00-cdc6-11eb-9e46-3cb11e52f6ed.gif)
 
 ---
-the code is a mess
+this code is a mess
 #### enjoy the spaghetti code 🍝
