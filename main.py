@@ -231,27 +231,35 @@ while run:
     if showValues:
         radius_value.text = "radius: " + str(radius)
         radius_value.Render(screen)
+        radius_value.fontColor = valueColor
 
         Theta_value.text = "θ     : " + str(round(angle,2)) + "°"
         Theta_value.Render(screen)
+        Theta_value.fontColor = valueColor
 
         sin_value.text = "sinθ  : " + str(round(y, 2))
         sin_value.Render(screen)
+        sin_value.fontColor = valueColor
 
         cos_value.text = "cosθ  : " + str(round(x, 2))
         cos_value.Render(screen)
+        cos_value.fontColor = valueColor
 
         tan_value.text = "tanθ  : " + str(round(tan_val, 2))
         tan_value.Render(screen)
+        tan_value.fontColor = valueColor
 
         ctn_value.text = "cotanθ: " + str(round(cotan_val, 2))
         ctn_value.Render(screen)
+        ctn_value.fontColor = valueColor
 
         sec_value.text = "secθ  : " + str(round(secante, 2))
         sec_value.Render(screen)
+        sec_value.fontColor = valueColor
 
         csc_value.text = "cscθ  : " + str(round(cosecante, 2))
         csc_value.Render(screen)
+        csc_value.fontColor = valueColor
     pygame.display.flip()
 
     if pause==False:
