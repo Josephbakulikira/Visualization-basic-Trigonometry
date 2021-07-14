@@ -218,5 +218,5 @@ class Slider:
         pygame.draw.rect(screen, self.lineColor, pygame.Rect(self.x, self.y, self.length, self.h))
         x = int((self.v * self.length) + self.x)
         pygame.draw.rect(screen, self.rectColor, pygame.Rect(self.x, self.y, int( self.v * self.length), self.h))
-        pygame.draw.circle(screen, (130, 213, 151), (x, self.y + (self.rectradius/2)), self.rectradius)
+        pygame.draw.circle(screen, (130, 213, 151), (x, self.y + (self.rectradius//2)), self.rectradius)
         return self.value
